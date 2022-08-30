@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import supabase from '../supabaseClient'
 import Auth from '../Auth'
 
+
 export default function App() {
   const [session, setSession] = useState(null)
 
@@ -17,9 +18,8 @@ export default function App() {
 
   return (
     <div className="container" style={{ padding: '50px 0 100px 0' }}>
-      
         <Auth />
-      
+        
     </div>
   )
 }
