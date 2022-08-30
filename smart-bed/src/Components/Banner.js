@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; // destructuring
 import Home from './Home'
+import { Link } from 'react-router-dom';
 
 
 class Banner extends Component{
@@ -10,7 +11,8 @@ class Banner extends Component{
     render(){
         return(
             <header> <h1> Get 3 weeks free if you trial SmartSleep!</h1> 
-                   <div className="subscribeButton"><h2> <a href='#'>Subscribe Now </a>  </h2></div> 
+                   <div className="subscribeButton"> 
+                   <Link to="/Subscribe">Subscribe</Link></div>
             </header>
             
         )
