@@ -9,8 +9,13 @@ class VideoPanel extends Component{
 
     render(){
         return(
-             <h1> Never make your bed again </h1> 
-            
+            <div className='container' id="video-section">
+                <h1>Never Make your Bed Again</h1> 
+                <h3>SmartBed offers you the latest innovation to  have you sleeping in perfect comfort every night without having to worry about making the bed in the morning</h3>
+                <button>
+                    Learn More
+                </button>
+            </div>
         )
     }
 }

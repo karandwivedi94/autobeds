@@ -9,8 +9,13 @@ class Footer extends Component{
 
     render(){
         return(
-             <h1> Footer Coming soon </h1> 
-            
+            <div className='container' id="footer-subscribe">
+                <h1>Subscribe to our Newsletter</h1> 
+                <h4>Get new product arrivals updates, latest offers delivered straight to your inbox</h4>
+                <button>
+                    Subscribe
+                </button>
+            </div>
         )
     }
 }

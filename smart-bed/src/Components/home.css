@@ -130,6 +130,50 @@ header .subscribeButton a{
 header .subscribeButton a:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+#video-section h1 {
+	position: absolute;
+	width: 302px;
+	height: 29px;
+	left: 36px;
+	top: 857px;
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #1B4965;
+
+}
+
+#video-section h3 {
+	position: absolute;
+	width: 355px;
+	height: 80px;
+	left: 8px;
+	top: 899px;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+
+#video-section button {
+	position: absolute;
+	width: 145px;
+	height: 39px;
+	left: 113px;
+	top: 996px;
+
+	background: #FE7F2D;
+	border-radius: 4px;
+
+}
+
+
 .form-container {
 	max-width: 1280px;
     margin: 0 auto;
@@ -380,4 +424,44 @@ top: 471px;
 background: #FE7F2D;
 border-radius: 4px;
 /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+#footer-subscribe h1 {
+	position: absolute;
+	width: 299px;
+	height: 29px;
+	left: 45px;
+	top: 1631px;
+
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #1B4965;
+
+}
+#footer-subscribe h4 {
+	position: absolute;
+	width: 355px;
+	height: 40px;
+	left: 10px;
+	top: 1670px;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+#footer-subscribe button {
+	position: absolute;
+	width: 145px;
+	height: 39px;
+	left: 107px;
+	top: 1769px;
+	background: #FE7F2D;
+	border-radius: 4px;
+	cursor: pointer;
 }
