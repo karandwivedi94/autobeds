@@ -23,6 +23,7 @@ export default function App() {
 
     <div className="Home">
       <Home />
+
     </div>
         
         <div className="container" style={{ padding: '50px 0 100px 0' }}>
