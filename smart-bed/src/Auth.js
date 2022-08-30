@@ -2,6 +2,7 @@ import { useState } from 'react'
 import supabase from './supabaseClient'
 
 
+
 export default function Auth() {
   const [loading, setLoading] = useState(false)
   const [email, setEmail] = useState('')
@@ -42,44 +43,53 @@ export default function Auth() {
 
 
   return (
-    <div className="row flex-center flex">
-      <div className="col-6 form-widget" aria-live="polite">
+ <div className='form-container'>
+      <div>
         <h1 className="header"></h1>
         {loading ? (
           'Sending magic link...'
         ) : (
-          <form onSubmit={handleLogin}>
-            <label>First Name</label><input
-            id="lastname"
-            className="inputField"
+          <form className='log-in-form' onSubmit={handleLogin}>
+            <h1 className='form-heading-1'>Subscribe and Get a free 3 week trial</h1>
+            <h3 className='form-heading-3'>Subscribe to our newsletter to get the voucher code and  latest offers and updates straight to your inbox</h3>
+            {/* <h5 className='form-heading-5'>Your privacy is important to us, we won’t spam your mail</h5> */}
+              
+            
+            <label className='first-name'>First Name</label><input
+            id="firstname"
+            className="input-first"
+            required
             type="text"
-            placeholder="Your Last Name"
+            placeholder="Your First Name"
             value={firstName}
             onChange={handleFirstName} />
                 
-            <label>Last Name</label><input
-            id="firstname"
-            className="inputField"
+            <label className='last-Name'>Last Name</label><input
+            id="lastname"
+            className="input-last"
+            required
             type="text"
             placeholder="Your Last Name"
             value={lastName}
             onChange={handleLastName} />
             
-            <label htmlFor="email">Email</label>
+            <label className='email-form' htmlFor="email">Email</label>
             <input
               id="email"
-              className="inputField"
+              className="input-email"
+              required
               type="email"
-              placeholder="Your email"
+              placeholder="abc@xyz.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <button className="button block" aria-live="polite">
-              Subscription
+            <button className="button--block" >
+              Subscribe
             </button>
           </form>
         )}
       </div>
     </div>
+
   )
 }

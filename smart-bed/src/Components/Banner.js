@@ -1,6 +1,8 @@
 import React, { Component } from 'react'; // destructuring
-import Home from './Home'
+import Home from './Home';
+
 import {Link} from 'react-router-dom';
+
 
 class Banner extends Component{
     constructor(){
@@ -9,9 +11,14 @@ class Banner extends Component{
 
     render(){
         return(
+
             <header> 
-                   <div className="subscribeButton"><h2> <Link to="/Subscribe"> Subscribe Now </Link>and get a free 3 week trial! </h2></div> 
-            </header>
+                   <div className="subscribeButton"><h2> <Link to="/Subscribe"> Subscribe Now </Link>and get a free 3 week trial! </h2>
+                   </div> 
+                   </header>
+
+
+            
             
         )
     }

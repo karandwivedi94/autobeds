@@ -2,19 +2,19 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     margin: 0;
     padding: 0
-} */
+}
 
-/* .body {
+.body {
     margin: 0;
     padding: 0;
-} */
+}
 
-/* #root{
+#root{
     margin: 0 auto;
-} */
+}
 
 .home {
     max-width: 100%;
@@ -130,6 +130,185 @@ header .subscribeButton a{
 header .subscribeButton a:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+.form-container {
+	max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.5em;
+    min-height: 80vh;
+}
+
+.form-heading-1 {
+	position: absolute;
+	width: 313px;
+	height: 35px;
+	left: 31px;
+	top: 95px;
+
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #1B4965;
+}
+
+.form-heading-3 {
+	position: absolute;
+	width: 322px;
+	height: 60px;
+	left: 27px;
+	top: 153px;
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.form-heading-5 {
+	position: absolute;
+	width: 342px;
+	height: 18px;
+	left: 28px;
+	top: 226px;
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+
+	color: #1B4965;
+}
+.first-name {
+	position: absolute;
+	width: 79px;
+	height: 20px;
+	left: 27px;
+	top: 258px;
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #1B4965;
+}
+.input-first {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 322px;
+	height: 46px;
+	left: 27px;
+	top: 284px;
+
+	background: #FFFFFF;
+	border: 1px solid #D9D9D9;
+
+}
+
+.last-Name {
+	position: absolute;
+	width: 78px;
+	height: 20px;
+	left: 27px;
+	top: 351px;
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #1B4965;
+
+}
+.input-last {
+
+	box-sizing: border-box;
+	position: absolute;
+	width: 322px;
+	height: 46px;
+	left: 27px;
+	top: 377px;
+	background: #FFFFFF;
+	border: 1px solid #D9D9D9;
+}
+.email-form {
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	left: 27px;
+	top: 448px;
+
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #1B4965;
+
+}
+.input-email {
+	box-sizing: border-box;
+	position: absolute;
+	width: 322px;
+	height: 46px;
+	left: 27px;
+	top: 473px;
+	background: #FFFFFF;
+	border: 1px solid #E11A1A;
+
+}
+.button--block{
+	position: absolute;
+	width: 145px;
+	height: 39px;
+	left: 104px;
+	top: 557px;
+
+	background: #FE7F2D;
+	border-radius: 4px;
+
+}
+.Sus-btn {
+	position: absolute;
+	width: 86px;
+	height: 15px;
+	left: 134px;
+	top: 564px;
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #1B4965;
+
+}
+
+
+
+
+
+
+
+
+	
 
 .bannerHeading {
 /* position: absolute;
