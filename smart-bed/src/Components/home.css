@@ -2,14 +2,22 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     margin: 0;
     padding: 0
-}
+} */
 
-.body {
+/* .body {
     margin: 0;
     padding: 0;
+} */
+
+/* #root{
+    margin: 0 auto;
+} */
+
+.home {
+    max-width: 100%;
 }
 
 .container {
@@ -25,6 +33,7 @@ header {
     text-align: center;
     /* padding: 0.8em 1em; */
     font-size: 0.8em;
+    margin: 0 auto;
 }
 
 nav .navLeft {
@@ -109,7 +118,13 @@ nav .user a:hover {
 } */
 
 header .subscribeButton{
-    background-color: white;
+    background-color: #1B4965;
+    color: white;
+    font-size: 8px;
+}
+
+header .subscribeButton a{
+    color: white;
 }
 
 header .subscribeButton a:hover{
@@ -295,3 +310,74 @@ header .subscribeButton a:hover{
 
 	
 
+.bannerHeading {
+/* position: absolute;
+  top: 208px;
+  left: 20px; */
+
+  position: absolute;
+  width: 323px;
+  height: 35px;
+  left: 23px;
+  top: 300px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #1B4965;
+  
+
+}
+
+.bannerSubHeading{
+position: absolute;
+width: 260px;
+height: 20px;
+left: 23px;
+top: 390px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* text-align: center; */
+
+color: #EEF4FA;
+
+background-color: rgba(27, 73, 101, 0.65);
+}
+
+/* .buyNowButton{
+    position: absolute;
+width: 86px;
+height: 15px;
+left: 49px;
+top: 442px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #1B4965;
+} */
+
+
+
+.actualButton button{
+position: absolute;
+width: 145px;
+height: 39px;
+left: 19px;
+top: 471px;
+
+background: #FE7F2D;
+border-radius: 4px;
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}

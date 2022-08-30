@@ -3,6 +3,7 @@ import Home from './Home'
 import { Link } from 'react-router-dom';
 
 
+
 class Banner extends Component{
     constructor(){
         super();
@@ -10,9 +11,10 @@ class Banner extends Component{
 
     render(){
         return(
+
             <header> <h1> Get 3 weeks free if you trial SmartSleep!</h1> 
                    <div className="subscribeButton"> 
-                   <Link to="/Subscribe">Subscribe</Link></div>
+                   <Link to="/Subscribe">Subscribe Now</Link>and get a free 3 week trial!</div>
             </header>
             
         )
