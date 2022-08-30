@@ -9,7 +9,7 @@ class VideoPanel extends Component{
 
     render(){
         return(
-             <h1> VideoPanel Coming soon </h1> 
+             <h1> Never make your bed again </h1> 
             
         )
     }

@@ -10,9 +10,10 @@ class BrandMarketing extends Component{
     render(){
         return(
             <div className = "brandMarketing">
-             <h1> Bed Making Made Easy</h1> 
-             <h2> Control & Comfort</h2> 
-             <h3>Buy Now</h3>
+                <img src="/BannerImage1.jpg" alt="Image of blue bed" />
+             <div className="bannerHeading">Bed Making Made Easy</div> 
+            <div className="bannerSubHeading">Control & Comfort at your finger tips </div>  
+        <div className="actualButton"> <button> Buy Now  </button> </div>  
              </div>
             
         )
@@ -20,3 +21,4 @@ class BrandMarketing extends Component{
 }
 
 export default BrandMarketing;
+
