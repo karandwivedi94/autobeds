@@ -2,19 +2,19 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     margin: 0;
     padding: 0
-} */
+}
 
-/* .body {
+.body {
     margin: 0;
     padding: 0;
-} */
+}
 
-/* #root{
+#root{
     margin: 0 auto;
-} */
+}
 
 .home {
     max-width: 100%;
