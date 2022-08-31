@@ -340,7 +340,7 @@ header .subscribeButton a:hover{
 	left: 27px;
 	top: 473px;
 	background: #FFFFFF;
-	border: 1px solid #E11A1A;
+	border: 1px solid #D9D9D9;
 
 }
 .button--block{
@@ -487,6 +487,7 @@ border-radius: 4px;
 	margin-bottom: 16px;
 
 }
+
 
 /* .videoPanel{
     margin: 0 auto;
