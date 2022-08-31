@@ -2,11 +2,12 @@
     box-sizing: border-box;
 }
 
-body{
+.body{
     margin: 0 auto;
     padding: 0;
     text-align: center;
     background-color: #EEF4FA;
+    width: 100%;
 }
 
 /* .body {
@@ -137,6 +138,14 @@ header .subscribeButton a:hover{
     width: 100%;
 }
 
+.brandMarketing img{
+    max-width: 100%;
+}
+
+.bedGif{
+    max-width: 100%;
+}
+
 #video-section h1 {
 	/* position: absolute; */
     text-align: center;
@@ -158,6 +167,7 @@ header .subscribeButton a:hover{
 #video-section h3 {
 	/* position: absolute; */
     text-align: center;
+    max-width: 100%;
 	width: 355px;
 	height: 80px;
 	left: 8px;
@@ -179,9 +189,10 @@ header .subscribeButton a:hover{
 	width: 145px;
 	height: 39px;
 	left: 113px;
-	margin: 0 auto;
+	margin: 13px auto;
 	background: #FE7F2D;
 	border-radius: 4px;
+    display: block;
 
 }
 
@@ -367,44 +378,35 @@ header .subscribeButton a:hover{
 }
 
 .bannerHeading {
-/* position: absolute;
-  top: 208px;
-  left: 20px; */
-
-  position: absolute;
-  width: 323px;
-  height: 35px;
-  left: 23px;
-  top: 300px;
-  
-  font-family: 'Urbanist';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
-  
-  color: #1B4965;
+    position: absolute;
+    width: 323px;
+    height: 35px;
+    left: 15px;
+    top: 300px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    color: #1B4965;
   
 
 }
 
 .bannerSubHeading{
-position: absolute;
-width: 260px;
-height: 20px;
-left: 23px;
-top: 390px;
-
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-/* text-align: center; */
-
-color: #EEF4FA;
-
-background-color: rgba(27, 73, 101, 0.65);
+    position: absolute;
+    width: 260px;
+    height: 18px;
+    left: 24px;
+    top: 343px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* text-align: center; */
+    color: #EEF4FA;
+    background-color: rgba(27, 73, 101, 0.65);
 }
 
 /* .buyNowButton{
@@ -427,15 +429,13 @@ color: #1B4965;
 
 
 .actualButton button{
-position: absolute;
-width: 145px;
-height: 39px;
-left: 19px;
-top: 471px;
-
-background: #FE7F2D;
-border-radius: 4px;
-/* transform: matrix(1, 0, 0, -1, 0, 0); */
+    position: absolute;
+    width: 145px;
+    height: 39px;
+    left: 25px;
+    top: 371px;
+    background: #FE7F2D;
+    border-radius: 4px;
 }
 
 #footer-subscribe h1 {
@@ -517,40 +517,61 @@ border-radius: 4px;
 
   .newsletterIndex{
     background-color: #1B4965;
+    height: 236px;
+    left: 0px;
+    top: 1809px;
+    display: block;
+    justify-content: space-between;
+    padding: 10px 15px;
+    top: 0;
     width: 100%;
-height: 136px;
-left: 0px;
-top: 1809px;
+    text-align: center;
+    margin: 0 auto;
   }
+.footer{
+    margin: 0 auto;
+}
+
+.youtubeIcon {
+    height: 20px;
+}
+
+.footer{
+    color: white;
+}
+
+.emailContact{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 15px;
+       line-height: 110.7%;
+ }
+
+ .footerLeft{
+    text-align: center;
+ }
 
 .newsletterIndex .footerLeft{
-    /* margin-top: auto; */
-    width: 50%;
-    margin: 0;
-	margin-bottom: 20px;
+    margin-top: auto; 
+    width: 100%;
+    /* margin: 0; */
+    margin-bottom: 20px;
     color: white;
-    text-align: left;
-    padding: 3px;
+    text-align: center;
+    padding: 0px;
     font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 110.7%;
-/* identical to box height, or 17px */
-
-text-decoration-line: underline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110.7%;
+    text-decoration-line: underline;
 }
 
-.newsletterIndex .footerRight {
 
-    /* margin-top: auto; */
-	/* margin-bottom: 20px; */
-    color: white;
-    text-align: right;
-    padding: 3px;
-
-}
-.newsletterIndex .footerRight h4 {
+/* .newsletterIndex .footerRight h4 {
 position: absolute;
 width: 54px;
 height: 18px;
@@ -564,4 +585,4 @@ font-size: 15px;
 line-height: 18px;
 
 color: #FFFFFF;
-}
+} */

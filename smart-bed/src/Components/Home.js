@@ -15,6 +15,7 @@ class Home extends Component{
 
     render(){
         return(
+            
             <div className = "body">
             <div className = "banner">
                 <Banner />
@@ -45,6 +46,8 @@ class Home extends Component{
             </div>
             
             </div>
+
+           
 
         )
     }

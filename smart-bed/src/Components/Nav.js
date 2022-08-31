@@ -19,7 +19,7 @@ class Nav extends Component{
             <a href="#"> How it Works</a>|<a href="#"> Contact</a>
             </div>
             <div className = "user">
-                <h1>User</h1>
+            <img src="/UserIcon.png" alt="Image of a bed with EZ Bed branding" />
 
             </div>
         </nav>
