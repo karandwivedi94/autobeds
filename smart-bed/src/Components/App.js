@@ -27,7 +27,6 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="Subscribe" element={<Auth  />} />
             <Route path="users" element={<UserName />} />
-
       </Routes>
     </div>
     </BrowserRouter>

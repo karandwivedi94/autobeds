@@ -145,7 +145,7 @@ header .subscribeButton a:hover{
 	font-size: 24px;
 	line-height: 29px;
 	color: #1B4965;
-
+	margin: 0 auto;
 }
 
 #video-section h3 {
@@ -162,6 +162,7 @@ header .subscribeButton a:hover{
 	line-height: 20px;
 	text-align: center;
 	color: #000000;
+	margin: 0 auto;
 }
 
 #video-section button {
@@ -170,7 +171,7 @@ header .subscribeButton a:hover{
 	width: 145px;
 	height: 39px;
 	left: 113px;
-	/* top: 996px; */
+	margin: 0 auto;
 
 	background: #FE7F2D;
 	border-radius: 4px;
@@ -436,19 +437,20 @@ border-radius: 4px;
 	height: 29px;
 	left: 45px;
 	top: 1631px;
-
 	font-family: 'Urbanist';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 29px;
 	color: #1B4965;
+	margin: 0 auto;
+	margin-top: 14px;
 
 }
 #footer-subscribe h4 {
 	/* position: absolute; */
 	width: 355px;
-	height: 40px;
+	height: 66px;
 	left: 10px;
 	top: 1670px;
 	font-family: 'Source Sans Pro';
@@ -458,6 +460,8 @@ border-radius: 4px;
 	line-height: 20px;
 	text-align: center;
 	color: #000000;
+	margin: 0 auto;
+	margin-top: 14px;
 }
 #footer-subscribe button {
 	/* position: absolute; */
@@ -468,6 +472,23 @@ border-radius: 4px;
 	background: #FE7F2D;
 	border-radius: 4px;
 	cursor: pointer;
+	margin-bottom: 16px;
+
+}
+#footerRight h4 {
+	position: absolute;
+	width: 54px;
+	height: 18px;
+	left: 186px;
+	top: 1829px;
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-align: right;
+
 }
 
 .videoPanel{
@@ -481,6 +502,25 @@ border-radius: 4px;
   .customerReviews{
     margin: 0 auto;
     max-width: 100%;
+  }
+
+  .customerReviews h1 {
+	position: absolute;
+width: 199px;
+height: 29px;
+left: 86px;
+top: 1113px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #1B4965;
+
   }
 
   .newsletterIndex{
@@ -509,7 +549,7 @@ line-height: 110.7%;
 text-decoration-line: underline;
 }
 
-.newsletterIndex .footerRight{
+.newsletterIndex .footerRight {
 
     /* margin-top: auto; */
 	/* margin-bottom: 20px; */
@@ -517,4 +557,19 @@ text-decoration-line: underline;
     text-align: right;
     padding: 3px;
 
+}
+.newsletterIndex .footerRight h4 {
+position: absolute;
+width: 54px;
+height: 18px;
+left: 186px;
+top: 1829px;
+text-align: right;
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
 }

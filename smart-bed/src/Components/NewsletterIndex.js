@@ -15,9 +15,10 @@ class NewsletterIndex extends Component{
              <h4> How it works</h4> 
              </div>
 
-             <div className = "footerRight">
+             <div id = "footerRight">
 
-                Test
+            <h4>Contact</h4>   
+            <h4>smartbed@gmail.com</h4>  
              </div>
 
              </div>
