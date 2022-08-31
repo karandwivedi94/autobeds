@@ -9,7 +9,18 @@ class NewsletterIndex extends Component{
 
     render(){
         return(
-             <h1> NewsletterIndex Coming soon </h1> 
+            <div>
+             <div className="footerLeft">
+             <h4> Shop</h4> 
+             <h4> How it works</h4> 
+             </div>
+
+             <div className = "footerRight">
+
+                Test
+             </div>
+
+             </div>
             
         )
     }

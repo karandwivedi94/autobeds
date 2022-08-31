@@ -15,6 +15,7 @@ class VideoPanel extends Component{
                 <button>
                     Learn More
                 </button>
+                <img className= "bedGif" src="/bedGif.gif" alt="Image of a bed with EZ Bed branding" />
             </div>
         )
     }

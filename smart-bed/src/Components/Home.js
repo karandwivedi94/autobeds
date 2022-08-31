@@ -26,18 +26,22 @@ class Home extends Component{
             <div className = "brandMarketing">
                 <BrandMarketing/>
             </div>
+            <hr></hr>
             <div className = "videoPanel">
                 <VideoPanel/>
             </div>
             <div className = "customerReviews">
                 <CustomerReviews/>
             </div>
-            <div className = "newsletterIndex">
-                <NewsletterIndex/>
-            </div>
+          <hr></hr>
             <div className = "footer">
                 <Footer/>
             </div>
+            <hr></hr>
+            <div className = "newsletterIndex">
+                <NewsletterIndex/>
+            </div>
+           
             </div>
             
             </div>
