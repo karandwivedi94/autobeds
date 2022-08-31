@@ -16,9 +16,7 @@ class NewsletterIndex extends Component{
              </div>
 
              <div id = "footerRight">
-
-            <h4>Contact</h4>   
-            <h4>smartbed@gmail.com</h4>  
+ 
              </div>
 
              </div>

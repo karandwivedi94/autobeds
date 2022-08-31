@@ -20,7 +20,7 @@ class VideoPanel extends Component{
                 </h3>
                         
             </div>
-            <img className= "bedGif" src="/bedGif.gif" alt="Image of a bed with EZ Bed branding" />
+            <img className= "bedGif" src="/bedGif.gif" alt="Image of a bed with EZ Bed branding"  />
             </div>
         )
     }
