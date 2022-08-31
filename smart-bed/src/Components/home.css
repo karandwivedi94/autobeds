@@ -6,6 +6,7 @@ body{
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    background-color: #EEF4FA;
 }
 
 /* .body {
@@ -43,8 +44,8 @@ nav .navLeft {
 }
 
 nav img {
-	width: 120px;
-	height: 50px;
+	width: 25px;
+	height: 20px;
 	/* object-fit: cover; */
 	display: inline-block;
 	margin-top: auto;
@@ -132,6 +133,10 @@ header .subscribeButton a:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+.videoPanel{
+    width: 100%;
+}
+
 #video-section h1 {
 	/* position: absolute; */
     text-align: center;
@@ -145,7 +150,12 @@ header .subscribeButton a:hover{
 	font-size: 24px;
 	line-height: 29px;
 	color: #1B4965;
+<<<<<<< HEAD
 	margin: 0 auto;
+=======
+    margin: 0 auto;
+
+>>>>>>> d33adcf6daf08fdd33bd6289948195f171d42b47
 }
 
 #video-section h3 {
@@ -163,21 +173,30 @@ header .subscribeButton a:hover{
 	text-align: center;
 	color: #000000;
 	margin: 0 auto;
+
 }
 
 #video-section button {
 	/* position: absolute; */
-    text-align: center;
+    /* text-align: center; */
 	width: 145px;
 	height: 39px;
 	left: 113px;
 	margin: 0 auto;
-
 	background: #FE7F2D;
 	border-radius: 4px;
 
 }
 
+.container #video-section img{
+    /* margin: 0 auto; */
+    /* margin-top: 5px; */
+    max-width: 100%;
+}
+
+.container #video-section{
+    min-height: 30vh;
+}
 
 .form-container {
 	max-width: 1280px;
@@ -350,15 +369,6 @@ header .subscribeButton a:hover{
 
 }
 
-
-
-
-
-
-
-
-	
-
 .bannerHeading {
 /* position: absolute;
   top: 208px;
@@ -465,6 +475,7 @@ border-radius: 4px;
 }
 #footer-subscribe button {
 	/* position: absolute; */
+    margin: 0 auto;
 	width: 145px;
 	height: 39px;
 	left: 107px;
@@ -491,12 +502,14 @@ border-radius: 4px;
 
 }
 
-.videoPanel{
+
+
+/* .videoPanel{
     margin: 0 auto;
-}
+} */
 
 .checked {
-    color: orange;
+    color: #1B4965;
   }
 
   .customerReviews{
