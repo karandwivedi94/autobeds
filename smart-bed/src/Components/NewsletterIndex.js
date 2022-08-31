@@ -20,8 +20,6 @@ class NewsletterIndex extends Component{
              <img className="youtubeIcon" src="/youtube.png" alt="Image of a bed with EZ Bed branding" /> | <img src="/facebook.png" alt="Image of a bed with EZ Bed branding" /> | <img src="/instagram.png" alt="Image of a bed with EZ Bed branding" />
              </div>
 
-            
-
              </div>
             
         )
