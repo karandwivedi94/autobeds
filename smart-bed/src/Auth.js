@@ -3,19 +3,21 @@ import supabase from './supabaseClient'
 
 
 
+
 export default function Auth() {
   const [loading, setLoading] = useState(false)
   const [email, setEmail] = useState('')
   const [firstName, SetFirstName] = useState('')
   const [lastName, SetLastName] = useState('')
 
+
   const handleLogin = async (e) => {
     e.preventDefault()
 
     
         const { data, error } = await supabase
-        .from('user_name')
-        .insert([{ first_name: firstName, last_name: lastName }])
+        .from('users')
+        .insert([{ first_name: firstName, last_name: lastName, email: email }])
             console.log("Names: ", data);
         
 
@@ -23,7 +25,7 @@ export default function Auth() {
       setLoading(true)
       const { error } = await supabase.auth.signInWithOtp({ email })
       if (error) throw error
-      alert('Check your email for the login link!')
+      alert('Thank you for your Subscription')
     } catch (error) {
       alert(error.error_description || error.message)
     } finally {
@@ -52,9 +54,7 @@ export default function Auth() {
           <form className='log-in-form' onSubmit={handleLogin}>
             <h1 className='form-heading-1'>Subscribe and Get a free 3 week trial</h1>
             <h3 className='form-heading-3'>Subscribe to our newsletter to get the voucher code and  latest offers and updates straight to your inbox</h3>
-            {/* <h5 className='form-heading-5'>Your privacy is important to us, we won’t spam your mail</h5> */}
-              
-            
+           
             <label className='first-name'>First Name</label><input
             id="firstname"
             className="input-first"

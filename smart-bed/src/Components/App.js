@@ -4,6 +4,7 @@ import Auth from '../Auth'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Home'
 import './home.css';
+import UserName from './usernames';
 
 
 export default function App() {
@@ -25,6 +26,8 @@ export default function App() {
       <Routes>
             <Route path="/" element={<Home />} />
             <Route path="Subscribe" element={<Auth  />} />
+            <Route path="users" element={<UserName />} />
+
       </Routes>
     </div>
     </BrowserRouter>
