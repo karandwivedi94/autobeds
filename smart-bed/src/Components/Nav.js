@@ -11,7 +11,7 @@ class Nav extends Component{
         return(
             <nav>
                 <div className ="navLeft">
-                <img src="/Logo.png" alt="Image of a bed with EZ Bed branding" />
+                <img src="/LogoIcon.png" alt="Image of a bed with EZ Bed branding" />
 
                 </div>
                 <div className = "navRight">
